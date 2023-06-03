@@ -42,6 +42,7 @@ header{
     padding: 5px;
     justify-content: flex-end;
     flex-wrap: wrap;
+    font-size: 10px;
 }
 
 
@@ -60,7 +61,7 @@ header nav ul{
 
 
 header nav ul li a{
-    font-size: 12px;
+    font-size: 20px;
     text-decoration: none;
     color: #000;
     list-style-type: none;
@@ -71,18 +72,26 @@ header nav{
     justify-content: space-around;
 }
 
-header .buscador .input {
+header .buscador .barra-busca {
     display: flex;
     background-color: #FFF;
-    border:1px solid #000;
+    border:solid 1px #000;
     color:#666;
     border: none;
     border-radius: 2px;
-    width: 15vw;
-    height: 4vh;
+    width: 20vw;
+    height: 5vh;
     align-items: center;
 }
-
+header .buscador .lupa{
+    display: flex;
+    border:solid 1px #000;
+    border: none;
+    background-color: #FFF;
+    border-radius: 2px;
+    width: 1vw;
+    height: 4vh;
+}
 header div.burger-menu i{
     color: white;
     background-color: #1259c3;
@@ -98,18 +107,6 @@ header div.burger-menu {
 header{
     width: 100vw;
 }
-
-header .buscador .lupa i {
-    display: flex;
-    background-color:white;
-    border:none;
-    color:#666;
-    border-radius: 2px;
-    width: 2vw;
-    height: 4vh;
-    align-items: center;
-}
-
 
 
 .banner-img{
@@ -321,6 +318,9 @@ form .text-cuenta input{
         flex-wrap: wrap;
         justify-content: space-around;
     }
+    .eslogan-tarjeta{
+        font-size: 15px;
+    }
     .desc-prod{
         display: none;
     }
@@ -346,7 +346,9 @@ form .text-cuenta input{
     main section article{
         width: 22.5%;
     }
-
+    .eslogan-tarjeta{
+        font-size: 25px;
+    }
     .desc-prod{
         display: none;
     }
