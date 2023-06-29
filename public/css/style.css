@@ -93,7 +93,7 @@ main article{
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: content-box;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 main section article img{
@@ -137,7 +137,7 @@ main section article div i {
     position: absolute ;
     right: 20px ;
     top: -15px ;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 article:hover i{
     transform: rotate(-90deg);
@@ -175,7 +175,7 @@ footer h5{
 
 .desc-prod{
     display: none;
-    transition: all 10s;
+    transition: all 0.5s;
 }
 
 
