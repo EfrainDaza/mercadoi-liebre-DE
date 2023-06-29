@@ -14,6 +14,11 @@ header{
 header{
     width: 100vw;
 }
+.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
 
 
 .img-logo{
@@ -84,7 +89,7 @@ main{
     width: 90vw;
 }
 
-article{
+main article{
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: content-box;
@@ -296,7 +301,7 @@ form .text-cuenta input{
         display: none;
     }
     main section article{
-        width: 100%;
+        width: 45%;
     }
     header nav{
         display: flex;
